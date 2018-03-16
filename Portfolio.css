@@ -60,6 +60,16 @@
 	-webkit-animation-delay: 5.5s;
 }
 
+[class^='imghvr-'] fadepicture, [class*=' imghvr-'] fadepicture {
+    background-color: #135796;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
 
 .wrapper {
 	margin-right: auto;

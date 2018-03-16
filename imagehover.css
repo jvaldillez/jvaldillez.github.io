@@ -79,7 +79,7 @@
 
 /* imghvr-fade-*
    ----------------------------- */
-[class^='imghvr-fade'] figcaption, [class*=' imghvr-fade'] figcaption {
+[class^='imghvr-fade'] fadepicture, [class*=' imghvr-fade'] fadepicture {
     opacity: 0;
 }
 
@@ -87,11 +87,11 @@
     opacity: 0;
 }
 
-[class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover figcaption {
+[class^='imghvr-fade']:hover fadepicture, [class*=' imghvr-fade']:hover fadepicture {
     opacity: 1;
 }
 
-[class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover figcaption, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover figcaption {
+[class^='imghvr-fade']:hover > img, [class^='imghvr-fade']:hover fadepicture, [class*=' imghvr-fade']:hover > img, [class*=' imghvr-fade']:hover fadepicture {
     -webkit-transform: translate(0, 0);
     -moz-transform: translate(0, 0);
     -ms-transform: translate(0, 0);
