@@ -31,9 +31,21 @@
     max-width: 100%;
 }
 
+/*
 [class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
     background-color: #135796;
     padding: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}*/
+
+[class^='imghvr-'] figcaption, [class*=' imghvr-'] figcaption {
+    background-color: #135796;
+    /*padding: 30px;*/
     position: absolute;
     top: 0;
     bottom: 0;
