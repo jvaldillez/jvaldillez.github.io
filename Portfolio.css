@@ -73,7 +73,7 @@
 	margin-top: 7em;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 3fr 2fr;
+	grid-template-rows: 1fr 3fr 1fr;
 }
 
 .wrapper_grid_project {
@@ -506,14 +506,10 @@
 }
 
 .headshot2 {
-	/*position: absolute;
-	margin-top: 10em;
-	margin-left: 16em;
-	/*display: block;*/	
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	grid-row-start: 2;
+	grid-row-start: 1;
 	grid-row-end: span 2;
 	
 }
