@@ -270,6 +270,16 @@
 	z-index: -1;
 }
 
+.project_picture_2_drill{
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	grid-row-start: 10;
+	grid-row-end: span 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .procedures_text {
 	font-family: "Source Sans Pro";
 	font-size: 1.6em;
